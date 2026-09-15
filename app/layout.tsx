@@ -25,6 +25,16 @@ export const metadata: Metadata = {
     locale: 'en_US',
     siteName: 'Chandrika S · Portfolio',
   },
+  icons: {
+    icon: [
+      {
+        url: '/icon.svg?v=2',
+        type: 'image/svg+xml',
+        sizes: 'any',
+      },
+    ],
+    apple: '/apple-icon.png',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Chandrika S — Bioinformatics & Computational Biology',
